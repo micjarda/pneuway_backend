@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "pneuway backend",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micjarda/pneuway_backend.git"
+  },
+  "keywords": [
+    "pneuway"
+  ],
+  "author": "Jaroslav Miczka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micjarda/pneuway_backend/issues"
+  },
+  "homepage": "https://github.com/micjarda/pneuway_backend#readme"
+}
